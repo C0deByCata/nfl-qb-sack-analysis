@@ -1,0 +1,24 @@
+[project]
+name = "nfl-qb-sack-analysis"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "C0deByCata",email = "rotarucatalinr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.3.0,<3.0.0)",
+    "statsmodels (>=0.14.4,<0.15.0)",
+    "streamlit (>=1.45.1,<2.0.0)",
+    "plotly (>=6.1.2,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.11.13"
+
